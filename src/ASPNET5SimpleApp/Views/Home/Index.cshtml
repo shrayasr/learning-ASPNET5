@@ -1,0 +1,9 @@
+﻿
+<h3>Dota Heros</h3>
+
+<ul>
+    @foreach (var hero in Model)
+    {
+        <li>@string.Format("{0} - {1}", hero.Name, hero.Type)</li>
+    }
+</ul>
